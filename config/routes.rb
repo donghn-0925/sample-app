@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   resources :static_pages do
     collection do
-      get :help, :home
+      get :help, :home, :about
     end
   end
 end
