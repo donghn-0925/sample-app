@@ -33,7 +33,12 @@ en:
   users:
     new:
       signup: "Sign up"
+      name: "Fullname"
+      email: "Email"
+      password: "Password"
       this_is_signup: "This will be a signup page for new users."
+      confirmation: "Confirmation"
+      create_account: "Create my account"
   layouts:
     footer:
       the: "The"
@@ -48,3 +53,9 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+  shared:
+    error_messages:
+      form_contain: "The form contains"
+      error_count: 
+        one: "1 error"
+        other: "%{count} errors"
