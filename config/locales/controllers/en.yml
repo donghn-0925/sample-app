@@ -2,3 +2,4 @@ en:
   controllers: "Controllers"
   welcome: "Welcome to the Sample App!"
   user_not_found: "User not found"
+  invalid: "Invalid email/password combination"

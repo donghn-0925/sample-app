@@ -53,9 +53,21 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
   shared:
     error_messages:
       form_contain: "The form contains"
       error_count: 
         one: "1 error"
         other: "%{count} errors"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      login: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
