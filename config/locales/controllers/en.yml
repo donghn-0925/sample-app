@@ -3,3 +3,7 @@ en:
   welcome: "Welcome to the Sample App!"
   user_not_found: "User not found"
   invalid: "Invalid email/password combination"
+  updated: "Profile updated"
+  please_login: "Please log in."
+  deleted: "User deleted!"
+  fail_delete: "Failed delete!"

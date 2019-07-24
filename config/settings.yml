@@ -2,3 +2,6 @@ name_maximum : 50
 password_minimum : 6
 size : 80
 email_maximum : 50
+remember_me_value: "1"
+avatar_size: 50
+users_per_page: 5
