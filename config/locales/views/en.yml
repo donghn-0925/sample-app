@@ -31,6 +31,11 @@ en:
       contact_page: "contact page"
       dot: "."
   users:
+    index:
+      all_users: "All users"
+    user:
+      delete: "delete"
+      sure: "You sure?"
     new:
       signup: "Sign up"
       name: "Fullname"
@@ -39,6 +44,11 @@ en:
       this_is_signup: "This will be a signup page for new users."
       confirmation: "Confirmation"
       create_account: "Create my account"
+    edit:
+      change: "change"
+      save: "Save changes"
+      edit: "Edit profile"
+      update_profile: "Update your profile"
   layouts:
     footer:
       the: "The"
@@ -73,3 +83,10 @@ en:
       sign_up_now: "Sign up now!"
       remember_me: "Remember me"
       remember_on_computer: "Remember me on this computer"
+  name: "Fullname"
+  email: "Email"
+  password: "Password"
+  confirmation: "Confirmation"
+  create_account: "Create my account"
+  save: "Save changes"
+  edit: "Edit profile"
