@@ -11,3 +11,4 @@ en:
   invalid: "Invalid activation link"
   account_not_active: "Account not activated. Check your email for the activation link."
   fail_delete: "Failed delete!"
+  fail_delete: "Failed delete!"
