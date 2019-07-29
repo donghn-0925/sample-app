@@ -83,6 +83,7 @@ en:
       sign_up_now: "Sign up now!"
       remember_me: "Remember me"
       remember_on_computer: "Remember me on this computer"
+      forgot_password: "(forgot password)"
   name: "Fullname"
   email: "Email"
   password: "Password"
@@ -97,5 +98,18 @@ en:
       welcome_link: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
     password_reset:
-      title: "User#password_reset"
-      content: "find me in app/views/user_mailer/password_reset.html.erb"
+      title: "Password reset"
+      content: "If you did not request your password to be reset, please ignore this email and
+your password will stay as it is."
+      click_link: "To reset your password click the link below:"
+      mess_expire: "This link will expire in two hours."
+  password_resets:
+    edit:
+      reset_password: "Reset password"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      update_password: "Update password"
+    new:
+      forgot_password: "Forgot password"
+      email: "Email"
+      submit: "Submit"
