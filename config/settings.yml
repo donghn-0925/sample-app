@@ -7,3 +7,8 @@ avatar_size: 50
 users_per_page: 5
 from_address: "from@example.com"
 expire_time: 2
+content_max_length: 140
+pic_max_size: 5
+pic_w: 400
+pic_h: 400
+pic_type: "image/jpeg,image/gif,image/png"
