@@ -8,6 +8,7 @@ en:
       tutorial_book_html: "<em>Ruby on Rails Tutorial</em>book"
     home:
       home: "Home"
+      micropost_feed: "Micropost Feed"
       sample_app: "Welcome to the Sample App"
       this_is_home: "This is the home page for the"
       tutorial: "Ruby on Rails Tutorial"
