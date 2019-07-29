@@ -16,3 +16,6 @@ en:
   expire_message: "Password reset has expired."
   cant_empty: "can't be empty"
   reset: "Password has been reset."
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  micropost_cant_deleted: "Failed delete"
