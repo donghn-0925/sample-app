@@ -1,2 +1,3 @@
 en:
-  subject: "Account activation"
+  subject_activation: "Account activation"
+  subject_password_reset: "Password reset"
