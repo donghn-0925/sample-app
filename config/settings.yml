@@ -5,3 +5,4 @@ email_maximum : 50
 remember_me_value: "1"
 avatar_size: 50
 users_per_page: 5
+from_address: "from@example.com"

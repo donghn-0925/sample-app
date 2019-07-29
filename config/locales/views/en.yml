@@ -90,3 +90,12 @@ en:
   create_account: "Create my account"
   save: "Save changes"
   edit: "Edit profile"
+  user_mailer:
+    account_activation: 
+      title: "Sample App"
+      hi: "Hi"
+      welcome_link: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password_reset:
+      title: "User#password_reset"
+      content: "find me in app/views/user_mailer/password_reset.html.erb"

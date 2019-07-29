@@ -6,4 +6,8 @@ en:
   updated: "Profile updated"
   please_login: "Please log in."
   deleted: "User deleted!"
+  check_email: "Please check your email to activate your account."
+  activated: "Account activated!"
+  invalid: "Invalid activation link"
+  account_not_active: "Account not activated. Check your email for the activation link."
   fail_delete: "Failed delete!"
