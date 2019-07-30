@@ -1,2 +1,3 @@
 en:
   models: "Models"
+  pic_size: "should be less than 5MB"

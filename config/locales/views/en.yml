@@ -8,6 +8,7 @@ en:
       tutorial_book_html: "<em>Ruby on Rails Tutorial</em>book"
     home:
       home: "Home"
+      micropost_feed: "Micropost Feed"
       sample_app: "Welcome to the Sample App"
       this_is_home: "This is the home page for the"
       tutorial: "Ruby on Rails Tutorial"
@@ -49,6 +50,8 @@ en:
       save: "Save changes"
       edit: "Edit profile"
       update_profile: "Update your profile"
+    show:
+      micropost: "Micropost"
   layouts:
     footer:
       the: "The"
@@ -74,6 +77,15 @@ en:
       error_count: 
         one: "1 error"
         other: "%{count} errors"
+    user_info:
+      view_profile: "View my profile"
+      micropost_count:
+        one: "1 micropost"
+        other: "%{count} microposts"
+    micropost_form: 
+      compose: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
   sessions:
     new:
       email: "Email"
@@ -113,3 +125,10 @@ your password will stay as it is."
       forgot_password: "Forgot password"
       email: "Email"
       submit: "Submit"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      yousure: "You sure?"
+      delete: "delete"
+      post_time: "%{time} ago."
