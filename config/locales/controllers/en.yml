@@ -20,3 +20,7 @@ en:
   micropost_deleted: "Micropost deleted"
   micropost_cant_deleted: "Failed delete"
   please_login: "Please log in."
+  following: "Following"
+  follower: "Followers"
+  fail_follow: "Failed to follow!"
+  fail_unfollow: "Failed to unfollow!"
