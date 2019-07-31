@@ -9,6 +9,7 @@ $color_fuscous_gray_approx: #555;
 $color_log_cabin_approx: #222;
 $color_gray: #bbb;
 $color_red: red;
+$color_blue: blue;
 body {
   padding-top: 60px;
 }
@@ -218,4 +219,42 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid $gray-lighter;
+    color: $color_gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: $color_blue;
+    }
+  }
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+
+.users.follow {
+  padding: 0;
 }

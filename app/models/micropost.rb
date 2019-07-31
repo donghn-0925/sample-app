@@ -1,7 +1,7 @@
 class Micropost < ApplicationRecord
   belongs_to :user
   scope :list_desc,-> { order created_at: :desc }
-  scope :by_id, -> (id){ where user_id: id }
+  scope :by_id, -> (user_id, followed_ids){ where(user_id: user_id).or(Micropost.where(user_id: followed_ids)) }
   mount_uploader :picture, PictureUploader
   validates :user_id, presence: true
   validates :content, presence: true, length: { maximum: Settings.content_max_length }

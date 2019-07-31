@@ -52,6 +52,13 @@ en:
       update_profile: "Update your profile"
     show:
       micropost: "Micropost"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_profile: "View my profile"
+      micropost: "Microposts:"
   layouts:
     footer:
       the: "The"
@@ -86,6 +93,9 @@ en:
       compose: "Compose new micropost..."
       post: "Post"
       alert: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "Following"
+      follower: "Followers"
   sessions:
     new:
       email: "Email"
